@@ -76,13 +76,13 @@ restaurant.orderDelivery({
   address: "Seoul, South Korea",
 });
 
-// 10.
+// 10. 스프레드 연산자, 이터러블(순회하다,반복하다)객체에서만 가능 (배열, 문자열, 맵, 셋)
 const newArray = [5, 6, ...arr];
 const str = "Owen";
 console.log([...str]);
 console.log(...str);
 
-// 11.
+// 11.첫번째 두번째 값은 알아 나머지는 뭉뚱그려서 배열로 만들어줌 3,4,5부위가 배열로 묶여서 선언됨.
 const [a, b, ...others] = [1, 2, 3, 4, 5];
 console.log(a, b, others);
 
